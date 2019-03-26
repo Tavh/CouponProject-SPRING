@@ -19,12 +19,6 @@ public class CompanyController {
 	@Autowired
 	private CompanyDao companyDao;
 
-	// ------------------------------------Constructor-------------------------------------
-
-	public CompanyController () {
-		this.companyDao = new CompanyDao();
-	}	
-
 	// -----------------------------Creates a new company--------------------------------
 
 	public long createCompany (CompanyEntity company) throws ApplicationException {

@@ -30,15 +30,6 @@ public class PurchaseController {
 	@Autowired
 	private CouponDao couponDao;
 
-	// ------------------------------------Constructor-------------------------------------
-
-	public PurchaseController () {
-		this.purchaseDao = new PurchaseDao();
-		this.customerDao = new CustomerDao();
-		this.couponDao = new CouponDao();
-	}	
-
-
 	// ------------------------------------Creates a purchase-------------------------------------
 
 	@Transactional(propagation=Propagation.REQUIRED, rollbackFor = Exception.class)

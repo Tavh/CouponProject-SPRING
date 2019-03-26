@@ -27,13 +27,6 @@ public class CouponApi {
 	@Autowired
 	private CouponController couponController;
 
-	// ------------------------------------Constructor---------------------------------
-
-	public CouponApi () {
-
-		this.couponController = new CouponController();
-	}
-
 	// ------------------------------------Creates a new coupon---------------------------------
 
 	@PostMapping

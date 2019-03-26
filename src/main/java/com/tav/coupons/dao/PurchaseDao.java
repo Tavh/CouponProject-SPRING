@@ -22,11 +22,6 @@ public class PurchaseDao {
 	@PersistenceContext(unitName="CouponSpringUnit")
 	private EntityManager entityManager;
 
-	// -----------------------------Constructor------------------------------------
-
-	public PurchaseDao () {
-	}
-
 	// -----------------------------Create a new purchase-------------------------
 
 	@Transactional(propagation=Propagation.REQUIRED)

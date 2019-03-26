@@ -19,11 +19,6 @@ public class CustomerDao {
 	@PersistenceContext(unitName="CouponSpringUnit")
 	private EntityManager entityManager;
 
-	// -----------------------------Constructor------------------------------------
-
-	public CustomerDao () {
-	}
-
 	// -----------------------------Create a new customer-------------------------
 
 	@Transactional(propagation=Propagation.REQUIRED)

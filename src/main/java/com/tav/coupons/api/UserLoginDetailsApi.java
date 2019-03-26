@@ -28,13 +28,6 @@ public class UserLoginDetailsApi {
 	@Autowired
 	private UserLoginDetailsController userLoginDetailsController;
 
-	// ------------------------------------Constructor---------------------------------
-
-	public UserLoginDetailsApi () {
-
-		this.userLoginDetailsController = new UserLoginDetailsController();
-	}
-
 	// -------------------------------------Login--------------------------------------
 
 	@PostMapping("/login")

@@ -18,12 +18,6 @@ public class UserLoginDetailsDao {
 	@PersistenceContext(unitName="CouponSpringUnit")
 	private EntityManager entityManager;
 
-
-	// -----------------------------Constructor------------------------------------
-
-	public UserLoginDetailsDao () {
-	}
-
 	// -----------------------------Create a new user login details-------------------------
 
 	@Transactional(propagation=Propagation.REQUIRED)

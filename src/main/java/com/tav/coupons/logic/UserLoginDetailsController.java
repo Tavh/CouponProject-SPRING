@@ -20,13 +20,6 @@ public class UserLoginDetailsController {
 	@Autowired 
 	private CompanyDao companyDao;
 
-	// ------------------------------------Constructor-------------------------------------
-
-	public UserLoginDetailsController () {
-		this.userLoginDetailsDao = new UserLoginDetailsDao();
-		this.companyDao = new CompanyDao();
-	}	
-
 	// ------------------------------------Creates a user-------------------------------------
 
 	public long createUserLoginDetails (UserLoginDetailsEntity userLoginDetails) throws ApplicationException {

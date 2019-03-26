@@ -28,13 +28,6 @@ public class CustomerApi {
 	@Autowired
 	private UserLoginDetailsController userLoginDetailsController;
 
-	// ------------------------------------Constructor---------------------------------
-
-	public CustomerApi () {
-		this.customerController = new CustomerController();
-		this.userLoginDetailsController = new UserLoginDetailsController();
-	}
-
 	// ------------------------------------Creates a new customer---------------------------------
 
 	@PostMapping("/no-login-required")

@@ -22,12 +22,6 @@ public class CustomerController {
 	@Autowired
 	private CustomerDao customerDao;
 
-	// ------------------------------------Constructor-------------------------------------
-
-	public CustomerController () {
-		this.customerDao = new CustomerDao();
-	}	
-
 	// ------------------------------------Creates a customer-------------------------------------
 
 	public long createCustomer (CustomerEntity customer) throws ApplicationException {

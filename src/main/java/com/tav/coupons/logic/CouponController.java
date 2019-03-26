@@ -25,14 +25,6 @@ public class CouponController {
 	@Autowired
 	private CompanyDao companyDao;
 
-	// ------------------------------------Constructor-------------------------------------
-
-	public CouponController () {
-		this.couponDao = new CouponDao();
-		this.companyDao = new CompanyDao();
-
-	}	
-
 	// -----------------------------Creates a new coupon--------------------------------
 
 	public long createCoupon (CouponEntity coupon) throws ApplicationException {

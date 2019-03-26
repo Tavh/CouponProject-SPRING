@@ -32,14 +32,6 @@ public class PurhcaseApi {
 	@Autowired
 	private CouponController couponController;
 
-	// ------------------------------------Constructor---------------------------------
-
-	public PurhcaseApi () {
-		this.purchaseController = new PurchaseController();
-		this.couponController = new CouponController();
-		this.customerController = new CustomerController();
-	}
-
 	// ------------------------------------Creates a new purchase---------------------------------
 
 	@PostMapping

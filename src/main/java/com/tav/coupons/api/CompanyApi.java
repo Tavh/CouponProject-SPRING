@@ -29,13 +29,6 @@ public class CompanyApi {
 	@Autowired
 	private CompanyController companyController;
 
-	// ------------------------------------Constructor---------------------------------
-
-	public CompanyApi () {
-
-		this.companyController = new CompanyController();
-	}
-
 	// ------------------------------------Creates a new company---------------------------------
 
 	@PostMapping("/no-login-required")

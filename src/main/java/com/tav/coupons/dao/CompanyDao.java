@@ -18,10 +18,6 @@ public class CompanyDao {
 	@PersistenceContext(unitName="CouponSpringUnit")
 	private EntityManager entityManager;
 
-// ------------------------------------Constructor------------------------------------------
-	public CompanyDao () {
-	}
-
 // ---------------------------------------Create a new company-----------------------------
 	
 	@Transactional(propagation=Propagation.REQUIRED)
